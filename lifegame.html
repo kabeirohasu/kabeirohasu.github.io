@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lifegame</title>
+        <link rel="stylesheet" href="lifegame.css">
+    </head>
+    <body>
+        <a href="index.html">一覧に戻る</a><br>
+        <h2>5×5 ライフゲームビジュアライザ</h2>
+        白：死<br>
+        黒：生<br>
+        <canvas id="canvas" class="maincanvas" width="300px" height="300px"></canvas>
+        <br><br>
+        <button class="button" onclick="step(main_board)">進む</button><br>
+        <span id="step_counter">ステップ：0</span><br><br>
+        <button class="button" onclick="reset()">リセット</button>
+        <script type="text/javascript" src="lifegame.js"></script>
+    </body>
+</html>

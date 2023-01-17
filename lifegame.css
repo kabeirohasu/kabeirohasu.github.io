@@ -1,0 +1,17 @@
+html, body {
+    font-family: "メイリオ", "Meiryo", sans-serif;
+    font-size: 16px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.maincanvas {
+    width: 300px;
+    height: 300px;
+    border: solid 1px #000000;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+}
